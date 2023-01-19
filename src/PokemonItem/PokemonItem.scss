@@ -1,0 +1,22 @@
+.pokemon-list {
+  border: 1px solid #282c34;
+  display: inline-block;
+  width: 300px;
+
+  .pokemon-item {
+    padding: 5px 15px;
+    margin: 10px;
+    color: aqua;
+    cursor: pointer;
+    background: beige;
+
+    .pokemon-id {
+      margin-left: 30px;
+    }
+
+    .pokemon-name {
+      width: 50%;
+      display: inline-block;
+    }
+  }
+}

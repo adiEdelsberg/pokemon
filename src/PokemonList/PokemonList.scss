@@ -1,0 +1,11 @@
+.pokemon-list {
+  border: 1px solid #282c34;
+  display: inline-block;
+  width: 300px;
+
+  .pokemon-item {
+    padding: 5px 15px;
+    color: aqua;
+    cursor: pointer;
+  }
+}

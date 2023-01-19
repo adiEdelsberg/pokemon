@@ -1,0 +1,28 @@
+.login-box {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #000;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+
+  .login-input-wrapper {
+    padding: 20px 10px;
+
+    label {
+      display: inline-block;
+      width: 80px;
+    }
+    input {
+      border-color: antiquewhite;
+    }
+  }
+
+  .login-button {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+  }
+}
